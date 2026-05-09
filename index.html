@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Chill | Tu momento chill</title>
+  <meta
+    name="description"
+    content="Página de presentación de The Chill, un emprendimiento de bebidas refrescantes como granizados, sodas, maracumangos y micheladas."
+  >
+  <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- This link improves keyboard navigation by allowing users to skip repeated header content. -->
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+
+  <!-- The header introduces the brand and groups the main navigation links. -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand-wrapper">
+        <img
+          class="brand-logo"
+          src="assets/logo.png"
+          alt="Logo de The Chill"
+          width="72"
+          height="72"
+        >
+
+        <div>
+          <h1 class="brand-title">The Chill</h1>
+          <p class="brand-description">
+            Tu momento chill para disfrutar bebidas refrescantes, compartir en familia
+            y vivir una experiencia cercana, colorida y diferente.
+          </p>
+        </div>
+      </div>
+
+      <!-- The navigation uses internal links to improve page structure and keyboard access. -->
+      <nav class="main-navigation" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#purpose">Propósito</a></li>
+          <li><a href="#products">Productos</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- The main element contains the central content of the page. -->
+  <main id="main-content" class="page-content">
+    <section id="purpose" class="hero-section section-block" aria-labelledby="purpose-title">
+      <div class="hero-layout">
+        <div>
+          <h2 id="purpose-title" class="section-title">Propósito de la página</h2>
+
+          <p>
+            Esta página fue creada para presentar de forma clara y profesional la propuesta
+            de valor de The Chill, un emprendimiento dedicado a la venta de granizados,
+            sodas, maracumangos, micheladas y bebidas preparadas.
+          </p>
+
+          <p>
+            El objetivo es que cualquier visitante pueda entender qué ofrece la marca,
+            a qué público se dirige y qué tipo de experiencia busca generar. La página
+            está pensada principalmente para familias, jóvenes y grupos de amigos que
+            quieren compartir una bebida en un ambiente cómodo, fresco y agradable.
+          </p>
+        </div>
+
+        <figure>
+          <img
+            class="hero-image"
+            src="assets/location.jpg"
+            alt="Zona de atención de The Chill con un ambiente colorido y cómodo para compartir bebidas"
+            width="900"
+            height="675"
+          >
+          <figcaption>
+            Espacio pensado para compartir bebidas y pasar un momento tranquilo.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="products" class="section-block" aria-labelledby="products-title">
+      <h2 id="products-title" class="section-title">Productos principales</h2>
+
+      <p class="section-description">
+        Estos son algunos de los productos más representativos de la marca.
+      </p>
+
+      <div class="product-grid">
+        <!-- Each product is an article because it can be understood independently. -->
+        <article class="content-card product-card">
+          <img
+            class="product-image"
+            src="assets/products/maracumango.jpeg"
+            alt="Vaso de maracumango preparado con fruta y presentación refrescante"
+            width="600"
+            height="450"
+            loading="lazy"
+          >
+
+          <h3>Maracumangos</h3>
+
+          <p>
+            Bebida tropical con un sabor ácido y dulce. Es una opción ideal para
+            quienes buscan algo diferente, fresco y llamativo.
+          </p>
+
+          <ul>
+            <li>Sabor tropical.</li>
+            <li>Puede acompañarse con gomitas.</li>
+            <li>Recomendado para días calurosos.</li>
+          </ul>
+        </article>
+
+        <article class="content-card product-card">
+          <img
+            class="product-image"
+            src="assets/products/sodas.jpeg"
+            alt="Sodas saborizadas con colores llamativos y presentación refrescante"
+            width="600"
+            height="450"
+            loading="lazy"
+          >
+
+          <h3>Sodas saborizadas</h3>
+
+          <p>
+            Bebidas coloridas y refrescantes, pensadas para niños, jóvenes y adultos
+            que desean una alternativa dulce, visualmente atractiva y fácil de compartir.
+          </p>
+        </article>
+
+        <article class="content-card product-card">
+          <img
+            class="product-image"
+            src="assets/products/micheladas.jpg"
+            alt="Michelada preparada en vaso con escarchado y presentación llamativa"
+            width="600"
+            height="450"
+            loading="lazy"
+          >
+
+          <h3>Micheladas</h3>
+
+          <p>
+            Producto dirigido a adultos que buscan una bebida preparada para disfrutar
+            en un momento social, manteniendo el estilo relajado de la marca.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- The aside provides complementary information about the brand experience. -->
+    <aside class="brand-note" aria-labelledby="brand-note-title">
+      <h2 id="brand-note-title">Lo que busca transmitir la marca</h2>
+
+      <p>
+        The Chill no se enfoca únicamente en vender bebidas. También busca crear
+        un momento para descansar, conversar y compartir. Por eso, la marca maneja
+        una identidad juvenil, familiar y cercana.
+      </p>
+    </aside>
+
+    <section id="experience" class="section-block" aria-labelledby="experience-title">
+      <h2 id="experience-title" class="section-title">Experiencia para el cliente</h2>
+
+      <p>
+        La experiencia del cliente se basa en una atención amable, productos bien
+        presentados y un ambiente visualmente atractivo. La intención es que las
+        personas recuerden el lugar no solo por el producto, sino también por el
+        momento que vivieron.
+      </p>
+
+      <p>
+        Por esta razón, la página organiza la información de forma sencilla:
+        primero presenta la marca, luego muestra sus productos principales y finalmente
+        ofrece un medio de contacto.
+      </p>
+    </section>
+
+    <section id="contact" class="section-block" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section-title">Formulario de contacto</h2>
+
+      <p id="contact-help" class="form-help">
+        Al enviar el formulario, el navegador intentará abrir una aplicación de correo
+        con el mensaje preparado.
+      </p>
+
+      <!-- The form uses labels, required fields, autocomplete and a mailto fallback. -->
+      <form
+        id="contact-form"
+        class="contact-form"
+        action="mailto:tu-correo@ejemplo.com"
+        method="post"
+        enctype="text/plain"
+        aria-describedby="contact-help"
+      >
+        <div class="form-field">
+          <label for="name">Nombre completo</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            required
+          >
+        </div>
+
+        <div class="form-field">
+          <label for="email">Correo electrónico</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+          >
+        </div>
+
+        <div class="form-field">
+          <label for="message">Mensaje</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+
+        <button class="button" type="submit">
+          Enviar mensaje
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      &copy; 2026
+      <a
+        href="https://thechill.vercel.app/bio"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Abrir la página oficial de The Chill en una nueva pestaña"
+      >
+        The Chill
+      </a>
+    </p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
